@@ -879,15 +879,9 @@ flowchart LR
     <table>
         <tr>
             <td >🌐 <strong>Website</strong></td>
-            <td><a href="https://shivakrishna.indevs.in/">https://www.pavanonlinetrainings.com</a></td>
+            <td><a href="https://shivakrishna.indevs.in/">https://shivakrishna.indevs.in/</a></td>
         </tr>
     </table>
    
 </div>
----
-
-## 📄 License
-
-This project is licensed under the **ISC License**.
-
 ---
