@@ -1,6 +1,6 @@
 # 🎭 Playwright + TypeScript Automation Framework
 
-> **A production-grade, multi-layer test automation framework** for **Web UI**, **REST API**, and **Database** testing — built with Playwright, TypeScript, and the Page Object Model pattern.
+> **A production-ready, multi-layer test automation framework** for **Web UI**, **REST API**, and **Database** testing — built using Playwright, TypeScript, and the Page Object Model pattern.
 
 [![Playwright](https://img.shields.io/badge/Playwright-1.62.1-45ba4b?logo=playwright)](https://playwright.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript)](https://www.typescriptlang.org/)
@@ -20,7 +20,6 @@
 - [Tech Stack](#-tech-stack)
 - [Prerequisites](#-prerequisites)
 - [Quick Start](#-quick-start)
-- [Environment Configuration](#-environment-configuration)
 - [Test Suites & Tags](#-test-suites--tags)
 - [Running Tests](#-running-tests)
 - [Test Execution Flow](#-test-execution-flow)
@@ -32,7 +31,6 @@
 - [Docker Setup](#-docker-setup)
 - [CI/CD with Jenkins](#-cicd-with-jenkins)
 - [Utilities](#-utilities)
-- [Contributing](#-contributing)
 - [License](#-license)
 
 ---
@@ -273,50 +271,6 @@ Edit `.env` with your application URLs and credentials (see [Environment Configu
 
 ```bash
 npx playwright test
-```
-
----
-
-## 🔧 Environment Configuration
-
-The framework uses a `.env` file for all configurable settings. Copy `.env.example` to `.env` and update the values:
-
-```env
-# Environment
-APP_ENV=qa                          # qa | prod | dev
-
-# Web Application
-WEB_APP_URL=https://awesomeqa.com/ui/
-APP_EMAIL=your-email@example.com
-APP_PASSWORD=your-password
-
-# Product Details (for cart tests)
-PRODUCT_NAME=MacBook
-PRODUCT_QUANTITY=1
-TOTAL_PRICE=$602.00
-
-# API (FakeStoreAPI)
-API_BASE_URL=https://fakestoreapi.com
-USERNAME=mor_2314
-PASSWORD=83r5^_
-USER_ID=1
-PRODUCT_ID=1
-CART_ID=1
-LIMIT=3
-START_DATE=2019-12-10
-END_DATE=2020-10-10
-
-# Database (MySQL)
-DB_HOST=localhost
-DB_PORT=3306
-DB_USER=root
-DB_PASSWORD=your-db-password
-DB_NAME=opencart
-
-# Admin Portal
-ADMIN_URL=http://localhost/opencart/upload/admin/index.php
-ADMIN_USERNAME=admin
-ADMIN_PASSWORD=admin123
 ```
 
 ---
@@ -920,21 +874,16 @@ flowchart LR
 ## 👨‍🏫 Author
 
 <div >
-    <h3>Mr. Pavan </h3>
-    <p><em>Tech Educator & Trainer</em></p>
+    <h3>Shiva Krishna </h3>
+    <p><em>SDET</em></p>
     <table>
         <tr>
             <td >🌐 <strong>Website</strong></td>
-            <td><a href="https://www.pavanonlinetrainings.com">https://www.pavanonlinetrainings.com</a></td>
-        </tr>
-        <tr>
-            <td >▶️ <strong>YouTube</strong></td>
-            <td><a href="https://www.youtube.com/@sdetpavan">https://www.youtube.com/@sdetpavan</a></td>
+            <td><a href="https://shivakrishna.indevs.in/">https://www.pavanonlinetrainings.com</a></td>
         </tr>
     </table>
    
 </div>
-
 ---
 
 ## 📄 License
